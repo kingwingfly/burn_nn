@@ -9,7 +9,7 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 -->
 
 ## [Unreleased]
-## [0.2.0-alpha3] - 2025-01-24
+## [0.2.0-alpha.3] - 2025-01-24
 
 - bump deps
 
