@@ -22,7 +22,7 @@ where
     }
 }
 
-impl<'a, T, const R: usize, const C: usize> Widget for TagGrid<'a, T, R, C>
+impl<T, const R: usize, const C: usize> Widget for TagGrid<'_, T, R, C>
 where
     T: fmt::Display,
 {

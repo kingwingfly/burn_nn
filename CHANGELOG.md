@@ -9,6 +9,10 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 -->
 
 ## [Unreleased]
+## [0.2.0-alpha3] - 2025-01-24
+
+- bump deps
+
 ## [0.2.0-alpha2] - 2024-10-23
 
 - fix: correct way from image to tensor

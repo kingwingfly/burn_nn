@@ -59,7 +59,7 @@ impl<'a, const R: usize, const C: usize, const S: usize> Grid<'a, R, C, S> {
     }
 }
 
-impl<'a, const R: usize, const C: usize, const S: usize> Widget for Grid<'a, R, C, S> {
+impl<const R: usize, const C: usize, const S: usize> Widget for Grid<'_, R, C, S> {
     fn render(self, area: Rect, buf: &mut Buffer) {
         let grid = Layout::default()
             .direction(Direction::Vertical)

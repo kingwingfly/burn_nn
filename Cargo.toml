@@ -3,16 +3,14 @@ members = ["burnxp", "burnxp-core", "tagger"]
 resolver = "2"
 
 [workspace.package]
-version = "0.2.0-alpha2"
+version = "0.2.0-alpha.3"
 edition = "2021"
 authors = ["Louis <836250617@qq.com>"]
 repository = "https://github.com/kingwingfly/burnxp"
 license = "MIT"
 
 [workspace.dependencies]
-burn = { git = "https://github.com/kingwingfly/burn", branch = "dev", features = [
-    "train",
-] }
+burn = { version = "0.16.0", features = ["train"] }
 ratatui = { version = "0.28" }
 ratatui-image = { version = "2.0", default-features = false, features = [
     "rustix",
