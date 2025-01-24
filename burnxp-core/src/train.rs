@@ -122,7 +122,7 @@ pub fn train<B: AutodiffBackend>(
                 model
             },
             config.optimizer.init(),
-            LinearLrSchedulerConfig::new(config.learning_rate, config.learning_rate/10., num_iters ).init(),
+            LinearLrSchedulerConfig::new(config.learning_rate, config.learning_rate/10., num_iters ).init().unwrap(),
         );
 
     let model_trained = learner.fit(dataloader_train, dataloader_valid);
